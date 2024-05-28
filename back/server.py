@@ -7,7 +7,7 @@ CORS(app)
 
 @app.route("/names")
 def members():
-    return{"names": ["Alien", "Child", "Bo"]} 
+    return{"names": ["Alien", "Child", "Bo", "Charlie"]} 
 
 
 if __name__ == "__main__":
