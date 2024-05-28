@@ -5,7 +5,7 @@ function App() {
   const [data, setData] = useState([{}])
 
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/names").then(
+    fetch("https://trial-run-production.up.railway.app/names").then(
       res => res.json()
     ).then (
       data => {
